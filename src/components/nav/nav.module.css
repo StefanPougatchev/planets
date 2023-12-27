@@ -1,0 +1,39 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 27px 33px;
+}
+
+.navHeading {
+  color: #fff;
+  font-family: Antonio;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.05px;
+  text-transform: uppercase;
+}
+
+ul {
+  display: inline-flex;
+  padding-right: 1px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 33px;
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: Spartan;
+}
+
+li {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
